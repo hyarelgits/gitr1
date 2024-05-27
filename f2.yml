@@ -1,0 +1,12 @@
+-
+ name: playbook1
+ hosts: web
+ vars: 
+   servicename: apache2
+ tasks: 
+   -  
+     name: "web server install"
+     service: name={{ servicename }} state=started
+ 
+
+

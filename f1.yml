@@ -1,0 +1,9 @@
+-
+ name: playbook1
+ hosts: web
+ tasks: 
+   -  
+     name: "create new file"
+     command: mkdir -p /tmp/123
+
+
